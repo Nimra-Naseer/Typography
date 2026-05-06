@@ -23,5 +23,3 @@ Focused on clean typography, spacing, and a simple user experience.
 - Make it responsive
 
 ---
-
-git clone https://github.com/your-username/read-ease.git
