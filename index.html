@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,115 +8,136 @@
     <!-- CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    <!-- nav bar -->
+    <!-- NAVBAR SECTION -->
     <nav class="flex flex-row px-2 py-2 justify-between ">
-        <!-- logo -->
+        <!-- Logo + Brand Name -->
         <div class="ml-12 flex flex-row">
             <img src="./images/logo.png" alt="logo" width="60px" height="60px">
             <h1 class=" text-blue-600 text-4xl mb-6 mt-4 ml-3"><b>ReadEase</b></h1>
         </div>
-        <div class="mr-6 flex justify-around w-64 font-bold text-blue-600">
+        <!-- Navigation Links -->
+        <div class="mr-6 mt-6 flex justify-around w-64 font-bold text-blue-600">
             <a href="#">Home</a>
             <a href="#">Blog</a>
             <a href="#">About </a>
             <a href="#">Contact</a>
         </div>
     </nav>
-    <!-- first part of page-->
+    <!-- ================= HERO / FIRST SECTION ================= -->
     <div class="bg-blue-100 items-center flex justify-center flex-col">
-<button class=" px-4 py-1 mt-16 mx-64 rounded-2xl shadow-2xs bg-blue-200 text-blue-600 mb-4">DESIGN MATTERS</button>
-<h1 class="text-5xl font-bold">   &nbsp; &nbsp; Good Typography  <br> Builds Better Experiences</h1>    
-<div class="mt-4 text-gray-600 font-bold ">
-    <p>Readable text hierarchy, proper line-height, and strong
-     <br>&nbsp;  color contrast make your content easy to read and </p>
-     <p class="pl-32">more enjoyable.</p>
-     <button class="px-6 py-2 items-center ml-32 my-12 bg-blue-500 text-white rounded-2xl text-1xl ">Read The Blog  ➡️</button>
-</div>
-</div>
-    <!-- 2nd part of page -->
-     <div>
-<!-- heading -->
+        <!-- Badge -->
+        <button class=" px-4 py-1 mt-16 mx-64 rounded-2xl shadow-2xs bg-blue-200 text-blue-600 mb-4">DESIGN
+            MATTERS</button>
+        <!-- Main Heading -->
+        <h1 class="text-5xl font-bold"> &nbsp; &nbsp; Good Typography </h1>
+        <h1 class="pt-4 text-5xl font-bold">Build Better Experiences</h1>
+        <!-- Description + CTA -->
+        <div class="mt-6 text-gray-600 font-bold ">
+            <p>Readable text hierarchy, proper line-height, and strong
+                <br>&nbsp; color contrast make your content easy to read and
+            </p>
+            <p class="pl-32">more enjoyable.</p>
+            <!-- CTA Button -->
+            <button class="px-6 py-2 items-center ml-32 my-12 bg-blue-500 text-white rounded-2xl text-1xl ">Read The
+                Blog ➡️</button>
+        </div>
+    </div>
+    <!-- ================= TYPOGRAPHY INFO SECTION ================= -->
+    <div>
+        <!-- Section Heading -->
         <div class="mt-8 items-center flex justify-center flex-col">
-<h1 class="font-bold text-2xl">Why Typography Matters</h1>
-<!-- paragraph  -->
-<div class=" mt-4 mb-10 font-bold text-gray-600">
-    <p>A well-structured typography system improves readability,</p>
-<p class="pl-12">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; engagement, and accessibility.</p>
-</div>
+            <h1 class="font-bold text-2xl">Why Typography Matters</h1>
+            <!-- Description -->
+            <div class=" mt-4 mb-10 font-bold text-gray-600">
+                <p>A well-structured typography system improves readability,</p>
+                <p class="pl-12">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; engagement, and accessibility.</p>
+            </div>
         </div>
-        <!-- three boxes -->
+        <!-- ================= FEATURE CARDS ================= -->
         <div class="flex flex-row ml-60">
-            <!-- box-1 -->
+            <!-- Card 1 -->
             <div class="shadow-2xs m-4 border border-gray-200 w-64 p-4 ">
-<button class="rounded-full mb-4 text-blue-700 mt-2 ml-8 bg-blue-200 font-bold text-2xl py-2 px-4">T</button>
-<h2 class="font-bold px-4 ">Font Sizes Scale</h2> 
-<p class="px-4 font-bold text-gray-600">A clear size hierarchy helps  users scan and understand content faster.</p>      
-</div>
-        <!-- box-2 -->
-        <div class="shadow-2xs m-4 border border-gray-200 w-64 p-4 ">
-<button class="rounded-full mb-4 text-blue-700 mt-2 ml-8 bg-blue-200 font-bold text-2xl py-2 px-4">L</button>
-<h2 class="font-bold px-4 ">Optimal Line-Height</h2> 
-<p class="px-4 font-bold text-gray-600">Proper spacing between <br>lines improves readability <br>and reduces eye strain.</p>      
-</div>
-        <!-- box-3 -->
-       <div class="shadow-2xs m-4 border border-gray-200 w-64 p-4">
-<button class="rounded-full mb-4 text-blue-700 mt-2 ml-8 bg-blue-200 font-bold text-2xl py-2 px-4">O</button>
-<h2 class="font-bold px-4 ">Color Contrast</h2> 
-<p class="px-4 font-bold text-gray-600">Strong contrast ensures <br>text is legible for everyone, everywhere</p>      
-</div>
+                <button
+                    class="rounded-full mb-4 text-blue-700 mt-2 ml-8 bg-blue-200 font-bold text-2xl py-2 px-4">T</button>
+                <h2 class="font-bold px-4 ">Font Sizes Scale</h2>
+                <p class="px-4 font-bold text-gray-600">A clear size hierarchy helps users scan and understand content
+                    faster.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="shadow-2xs m-4 border border-gray-200 w-64 p-4 ">
+                <button
+                    class="rounded-full mb-4 text-blue-700 mt-2 ml-8 bg-blue-200 font-bold text-2xl py-2 px-4">L</button>
+                <h2 class="font-bold px-4 ">Optimal Line-Height</h2>
+                <p class="px-4 font-bold text-gray-600">Proper spacing between <br>lines improves readability <br>and
+                    reduces eye strain.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="shadow-2xs m-4 border border-gray-200 w-64 p-4">
+                <button
+                    class="rounded-full mb-4 text-blue-700 mt-2 ml-8 bg-blue-200 font-bold text-2xl py-2 px-4">O</button>
+                <h2 class="font-bold px-4 ">Color Contrast</h2>
+                <p class="px-4 font-bold text-gray-600">Strong contrast ensures <br>text is legible for everyone,
+                    everywhere</p>
+            </div>
         </div>
-     </div>
-     <!-- neeche -->
-     <div class=" py-6 px-4 mx-50 text-center rounded-2xl bg-blue-100 ">
+    </div>
+    <!-- ================= TIP BANNER ================= -->
+    <div class=" py-6 px-4 mx-50 text-center rounded-2xl bg-blue-100 ">
         <p class="flex flex-row pl-40 pt-4  ">
+            <!-- Icon -->
             <img src="./images/bulb.png" alt="" width="40" height="40">
             <span class="text-blue-600 font-bold pt-2 pl-8">Tip:</span>
             <span class="font-bold pt-2">&nbsp;Good design is invisible.</span>
-        <span class="pt-2">&nbsp;It guides the reader without making them think.</span>
+            <span class="pt-2">&nbsp;It guides the reader without making them think.</span>
         </p>
-     </div>
-     <!-- last part -->
-     <div class="flex flex-row shadow-xl border border-gray-200 mx-12 my-8 p-5">
-        <!-- first -->
-<div class="flex flex-col  p-5 ml-35">
-    <!-- logo heading -->
-    <div class="flex flex-row ">
-         <img src="./images/logo.png" alt="logo" width="60px" height="60px">
-            <h1 class=" text-blue-600 text-2xl mb-6 mt-4 mw-3"><b>ReadEase</b></h1>
     </div>
-    <!-- para -->
-    <div>
-        <p>Thoughts, stories and ideas. </p>
+    <!-- ================= FOOTER SECTION ================= -->
+    <div class="flex flex-row shadow-xl border border-gray-200 mx-12 my-8 p-5">
+        <!-- Brand Info -->
+        <div class="flex flex-col  p-5 ml-35">
+            <!-- Logo -->
+            <div class="flex flex-row ">
+                <img src="./images/logo.png" alt="logo" width="60px" height="60px">
+                <h1 class=" text-blue-600 text-2xl mb-6 mt-4 mw-3"><b>ReadEase</b></h1>
+            </div>
+            <!-- Description -->
+            <div>
+                <p>Thoughts, stories and ideas. </p>
+            </div>
+            <!-- Social Icons -->
+            <div class="flex flex-row justify-evenly mt-6">
+                <img src="./images/Twitter.png" alt="" width="40" height="40">
+                <img src="./images/linkedin.png" alt="" width="40" height="40">
+                <img src="./images/github.png" alt="" width="40" height="40">
+            </div>
+        </div>
+        <!-- Quick Links -->
+        <div class=" ml-40 p-4 ">
+            <h1 class="font-bold text-2xl">Quick Links</h1>
+            <div class="ml-10 mt-3">
+                <p>Home</p>
+                <p>Blog</p>
+                <p>About</p>
+                <p>Contact</p>
+            </div>
+        </div>
+        <!-- Newsletter Section -->
+        <div class=" ml-40 p-4">
+            <h1 class="font-bold text-2xl">Newsletter</h1>
+            <p class="mt-2">Get the latest posts in your inbox.</p>
+            <!-- Email Input -->
+            <input type="email" placeholder="you@example.com"
+                class=" mt-4 text-black shadow-2xl rounded-2xl text-sm px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <!-- Subscribe Button -->
+            <button class="bg-blue-600 text-white font-bolf px-4 py-2 rounded-xl ml-2 mt-4">Subscribe</button>
+        </div>
     </div>
-    <!-- social accounts -->
-<div class="flex flex-row justify-evenly mt-6">
-<img src="./images/Twitter.png" alt="" width="40" height="40">
-<img src="./images/linkedin.png" alt="" width="40" height="40">
-<img src="./images/github.png" alt="" width="40" height="40">
-</div>
-</div>
-
-      <!-- secod -->
-<div class=" ml-40 p-4 ">
-    <h1 class="font-bold text-2xl">Quick Links</h1>
-    <div class="ml-10 mt-3">
-        <p>Home</p>
-    <p>Blog</p>
-    <p>About</p>
-    <p>Contact</p>
-    </div>
-</div>
-<div class=" ml-40 p-4">
-    <h1 class="font-bold text-2xl">Newsletter</h1>
-    <p class="mt-2">Get the latest posts in your inbox.</p>
-    <input type="email" placeholder="you@example.com"  class=" mt-4 text-black shadow-2xl rounded-2xl text-sm px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
-<button class="bg-blue-600 text-white font-bolf px-4 py-2 rounded-xl ml-2 mt-4">Subscribe</button>
-</div>
-     </div>
-     <!-- footer -->
-     <footer class="text-center mb-4">
-&copy;2025 ReadEase. All rights reserved.
-     </footer>
+    <!-- ================= COPYRIGHT FOOTER ================= -->
+    <footer class="text-center mb-4">
+        &copy;2025 ReadEase. All rights reserved.
+    </footer>
 </body>
+
 </html>
